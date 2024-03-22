@@ -3,11 +3,9 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape android:shape="rectangle">
-            <solid
-                android:color="#F3F3F3" />
-            <corners
-                android:topRightRadius="10dp"
-                android:bottomRightRadius="10dp" />
+            <gradient
+                android:startColor="@color/white"
+                android:endColor="#F89AEE" />
         </shape>
     </item>
 </selector>

@@ -37,7 +37,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView1" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView2"
         android:layout_width="332dp"
         android:layout_height="100dp"
         android:gravity="center"
@@ -51,27 +51,29 @@
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/myButton"
+        android:id="@+id/button"
         android:layout_width="197dp"
         android:layout_height="65dp"
         android:layout_marginStart="25dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/button1"
         android:text="Sign in"
+        android:textSize="22dp"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/myButton2"
+        android:id="@+id/button2"
         android:layout_width="162dp"
         android:layout_height="65dp"
         android:background="@drawable/button2"
         android:text="Register"
+        android:textSize="22dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/myButton"
-        app:layout_constraintStart_toEndOf="@+id/myButton"
-        app:layout_constraintTop_toTopOf="@+id/myButton" />
+        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
